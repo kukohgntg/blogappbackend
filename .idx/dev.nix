@@ -81,9 +81,13 @@
     })
     pkgs.php82Packages.composer
     # pkgs.nodejs_20
-    pkgs.nodejs_18
     pkgs.openssl
     pkgs.openssl_legacy
+    pkgs.nettee
+    pkgs.nodejs_18
+    pkgs.vercel-pkg
+    pkgs.nodePackages.vercel
+    pkgs.nodePackages_latest.vercel
   ];
   # Sets environment variables in the workspace
   env = { };
