@@ -5,6 +5,7 @@
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
+        { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/css/(.*)", "dest": "/public/css" },
         { "src": "/js/(.*)", "dest": "/public/js" },
         { "src": "/img(.*)", "dest": "/public/img/" },
