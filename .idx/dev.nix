@@ -81,6 +81,7 @@
     })
     pkgs.php82Packages.composer
     pkgs.nodejs_20
+    pkgs.openssl
   ];
   # Sets environment variables in the workspace
   env = { };
