@@ -80,7 +80,8 @@
       ]));
     })
     pkgs.php82Packages.composer
-    pkgs.nodejs_20
+    # pkgs.nodejs_20
+    pkgs.nodejs_18
     pkgs.openssl
     pkgs.openssl_legacy
   ];
