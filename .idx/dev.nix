@@ -82,7 +82,7 @@
     pkgs.php82Packages.composer
     pkgs.nodejs_20
     pkgs.openssl
-    pkgs.ocamlPackages.ssl
+    pkgs.openssl_legacy
   ];
   # Sets environment variables in the workspace
   env = { };
