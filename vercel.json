@@ -15,7 +15,7 @@
     "buildCommand": "vite build",
     "outputDirectory": "public",
     "env": {
-        "APP_ENV": "production",
+        "APP_ENV": "local",
         "APP_DEBUG": "true",
         "APP_URL": "https://blogappbackend.vercel.app/",
         "APP_KEY": "base64:hXae1b2Fk8vzoMkUBdxOQ1iyfAZ+mLUvmGceXo7/oBg=",
