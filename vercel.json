@@ -2,7 +2,7 @@
     "version": 2,
     "framework": null,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+        "api/index.php": { "runtime": "vercel-php@0.6.1" }
     },
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/" },
@@ -15,8 +15,8 @@
     "buildCommand": "vite build",
     "outputDirectory": "public",
     "env": {
-        "APP_ENV": "local",
-        "APP_DEBUG": "true",
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
         "APP_URL": "https://blogappbackend.vercel.app/",
         "APP_KEY": "base64:hXae1b2Fk8vzoMkUBdxOQ1iyfAZ+mLUvmGceXo7/oBg=",
 
